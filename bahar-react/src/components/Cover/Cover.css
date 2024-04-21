@@ -1,0 +1,129 @@
+.Cover-Container{
+    width: 100%;;
+    height: 70vh;
+    position: relative;
+    background-color: #02413e;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.Top-Right{
+    bottom: -100px;
+    right: 0;
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: 1;
+}
+.Cover-Content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 25px;
+}
+.Cover-Content-Title{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+.Cover-Content-Title div{
+    width: 4px;
+    height: 50px;
+    background-color: #09a144;
+    margin-top: 20px;
+
+}
+.Cover-Content-Title h1{
+    color: white;
+    font-size: 2.8em;
+    font-family: "Archivo Black", sans-serif;
+    width: 80%;
+    margin: 0;
+    font-weight: 400;
+}
+.Cover-Content p{
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    width: 40%;
+    margin-top: 60px;
+    font-weight: 500;
+}
+.Cover-Title-Description-Button-Wrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.About-us-Button{
+    width: 150px;
+    height: 50px;
+    background-color: #09a144;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7em;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.About-us-Button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    gap: 10px;
+}
+.Contact-Button{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7em !important;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.Contact-Button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    
+}
+.Cover-Image{
+    right: 10%;
+    z-index: 2;
+    position: absolute;
+    width: 45%;
+    bottom: -20vh;
+    height: 60vh;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}

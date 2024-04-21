@@ -1,0 +1,93 @@
+.Feedback-Container{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Feedback-Content{
+    width: 70%;
+    height: 95%;
+    background-color: #090e0b;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.Feedback-Content-Title{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    gap: 20px;
+}
+.Feedback-Content-Title div{
+    width: 3px;
+    height: 50px;
+    background-color: #09a144;
+    margin-top: 20px;
+}
+.Feedback-Content-Title h1{
+    color: white;
+    font-size: 1.8em;
+    width: 50%;
+    margin: 0;
+    font-family: "Archivo Black", sans-serif;
+}
+.Feedback-Content-Description{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+.Feedback-Content-Description p{
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    width: 60%;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.Feedback-Content-Description button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #09a144;
+    color: white;
+    font-size: 0.7em;
+    margin-left: 20px;
+}
+.Numbers{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 60px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.Numbers div{
+    font-size: 25px;
+
+}
+.Numbers div h1{
+    color: white;
+    font-size: 3.2em;
+    margin: 0;
+    font-family: "Archivo Black", sans-serif;
+}
+.Numbers div h1 span{
+    color: #09a144;
+}
+.Numbers div p{
+    margin: 0;
+    font-size: 0.7em;
+}
