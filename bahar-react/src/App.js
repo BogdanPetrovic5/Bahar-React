@@ -8,6 +8,7 @@ import WhyUs from './components/Why-Us/WhyUs';
 import Feedback from './components/Feedback/Feedback';
 import Faq from './components/Faq/Faq';
 import Contact from './components/Contact/Contact';
+import Ref from './components/References/Ref';
 function App() {
   return (
     <div class="App-Container">
@@ -18,7 +19,8 @@ function App() {
       <WhyUs></WhyUs>
       <Feedback></Feedback>
       <Faq></Faq>
-      <Contact></Contact>
+      
+      <Ref></Ref>
     </div>
   );
 }

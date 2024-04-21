@@ -1,0 +1,167 @@
+.Ref-Container {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Ref-Content{
+    width: 70%;
+    height: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+.Ref-Content-Descirption{
+    position: relative;
+    font-size: 25px;
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: center;
+}
+.Ref-Content-Descirption button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 0.8em;
+    font-family: 'Nunito', sans-serif;
+    background-color: #09a144;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    color: white;
+}
+.Ref-Content-Descirption p{
+    font-size: 0.8em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    width: 90%;
+    color: white;
+    margin-left: 20px;
+}
+.Ref-Content::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: rgba(9, 14, 11, .5);
+}
+.Ref-Content-Title{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+}
+.Ref-Content-Title div{
+    height: 50px;
+    width: 3px;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    background-color: #09a144;;
+    
+    
+}
+.Ref-Content-Title h1{
+    font-size: 1.7em;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+.Ref-Content-Card-Wrap{
+    width: 45%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: center;
+    position: relative;
+    font-size: 25px;
+}
+.Ref-Card{
+    width: 80%;
+    height: 100%;
+    
+    border-radius: 50px;
+}
+.Ref-Card-Image{
+    width: 100%;
+    height: 70%;
+}
+.Ref-Card-Description{
+    width: 100%;
+    
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.Ref-Card-Image img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.Ref-Card-Description h1{
+    font-size: 1.1em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    align-self: center;
+    margin: 0;
+    width: 90%;
+    margin-top: 20px;
+    letter-spacing: 1px;
+
+}
+.Ref-Card-Description p{
+    font-size: 0.8em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 90%;
+}
+.Left, .Right{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    position: absolute;
+    font-size: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+}
+.Left{
+    left: 5%;
+    top: 50%;
+    transform: rotate(180deg);
+}
+.Right{
+    right: 5%;
+    top: 50%;
+}
