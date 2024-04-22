@@ -1,9 +1,9 @@
 import './Feedback.css'
-
+import CoverPh from './images/feedback.svg'
 function Feedback(){
     return (
         <div class='Feedback-Container' >
-            <div class='Feedback-Content' style={{backgroundImage: `url('https://assets-global.website-files.com/65b6ddb62be86fb56b8c3873/65b90c9e1bb4ffb36c31441f_globe-illustration-impactful-accountant-x-webflow-template.svg')`}}>
+            <div class='Feedback-Content' style={{backgroundImage: `url('${CoverPh}')`}}>
                 <div class='Feedback-Content-Description'>
                     <div class='Feedback-Content-Title'>
                         <div>

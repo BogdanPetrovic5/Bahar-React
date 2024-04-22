@@ -19,6 +19,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 .Feedback-Content-Title{
     width: 90%;
@@ -35,16 +37,12 @@
 }
 .Feedback-Content-Title h1{
     color: white;
-    font-size: 1.8em;
+    font-size: 2em;
     width: 50%;
     margin: 0;
     font-family: "Archivo Black", sans-serif;
 }
-.Feedback-Content-Description{
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-}
+
 .Feedback-Content-Description p{
     font-size: 0.8em;
     color: white;
@@ -52,6 +50,11 @@
     width: 60%;
     margin-left: 20px;
     font-weight: bold;
+}
+.Feedback-Content-Description{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
 }
 .Feedback-Content-Description button{
     width: 150px;

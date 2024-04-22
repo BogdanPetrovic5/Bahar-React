@@ -7,6 +7,18 @@ function WhyUs(){
     return (
         <div class="Why-Us-Container">
             <div class="Why-Us-Content">
+                
+                <div class="Why-Us-Content-Title">
+                    <div>
+
+                    </div>
+                    <h1>
+                        Zasto izabrati nas?
+                    </h1>
+                </div>
+                <div class="Why-Us-Content-Image">
+                    <img src={WhyUsImage}/>
+                </div>
                 <div class="Why-Us-Content-Card-Wrap">
                     <div class='Why-Us-Content-Card'>
                         <div class='Why-Us-Content-Card-Content'>
@@ -42,17 +54,6 @@ function WhyUs(){
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="Why-Us-Content-Title">
-                    <div>
-
-                    </div>
-                    <h1>
-                        Zasto izabrati nas?
-                    </h1>
-                </div>
-                <div class="Why-Us-Content-Image">
-                    <img src={WhyUsImage}/>
                 </div>
             </div>
         </div>

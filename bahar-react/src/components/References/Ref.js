@@ -1,6 +1,8 @@
 import './Ref.css'
 import CoverPhoto from './images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg'
 import Case from './images/cover.jpg'
+import Left from './images/left.png'
+import Right from './images/right.png'
 function Ref(){
     return(
         <div class="Ref-Container">
@@ -24,10 +26,10 @@ function Ref(){
 
                 <div className='Ref-Content-Card-Wrap'>
                  <div className='Left'>
-                 ➲
+                    <img src={Left}></img>
                  </div>
                  <div className='Right'>
-                    ➲
+                 <img src={Right}></img>
                  </div>
                     <div className='Ref-Card'>
                     
@@ -37,7 +39,7 @@ function Ref(){
                         </div>
                         <div className='Ref-Card-Description'>
                             <h1>
-                                Lorem Ipsum is simply dummy text of the printing and
+                                Lorem Ipsum is simply dummy text of the printingw and
                             </h1>
                             <p>
                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.

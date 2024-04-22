@@ -9,6 +9,7 @@ import Feedback from './components/Feedback/Feedback';
 import Faq from './components/Faq/Faq';
 import Contact from './components/Contact/Contact';
 import Ref from './components/References/Ref';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div class="App-Container">
@@ -21,6 +22,7 @@ function App() {
       <Faq></Faq>
       
       <Ref></Ref>
+      <Footer></Footer>
     </div>
   );
 }

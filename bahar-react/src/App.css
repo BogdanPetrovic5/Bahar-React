@@ -4,4 +4,1053 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+@media only screen and (min-width:300px) and (max-width:624px){
+  .Header-Content{
+    width: 95% !important;
+    
+   
+  }
+  .Cover-Container{
+    flex-direction: column-reverse !important;
+  }
+  .Cover-Image{
+    width:95% !important;
+    align-self: flex-end !important;
+    height: 500px !important;
+    margin-top: -600px;
+    position: relative !important;
+    
+  }
+  .Cover-Content{
+   margin-bottom: 400px !important;
+    height: 50%;
+  }
+  .Cover-Content-Descirption{
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    align-self: center;
+    margin-bottom: 250px !important;
+  }
+  .Cover-Content-Title h1{
+    font-size: 2em !important;
+  }
+ 
+  .About-Us-Content{
+    width: 95% !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse !important;
+    gap: 50px;
+  }
+  .About-Us-Content-Image{
+    width: 90% !important;
+  }
+  .About-Us-Content-Description{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .About-Us-Content-Description p{
+    text-align: center;
+    font-size: 0.65em !important;
+  }
+  .About-Us-Content-Title{
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .About-Us-Content-Title div{
+    width: 50px !important;
+    height: 4px !important;
+  }
+  .About-Us-Content-Title h1{
+    text-align: center !important;
+    font-size: 1.5em !important;
+  }
+  .My-Services-Content{
+    width: 95% !important;
+    
+  }
+  .My-Services-Title h1{
+    font-size: 1.5em !important;
+  }
+  .My-Services-Card-Wrap{
+    flex-direction: column !important;
+    gap: 50px;
+  }
+  .My-Services-Card{
+    width: 100% !important;
+  }
+  .My-Services-Card h1{
+    font-size: 1em !important;
+  }
+  .My-Services-Card p{
+    font-size: 0.7em !important;
+  }
+  .Why-Us-Content{
+    width: 95% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .Why-Us-Content-Title h1{
+    font-size: 1.5em !important;
+    text-align: center !important;
+  }
+  .Why-Us-Content-Card-Wrap{
+    margin-top: -200px;
+    width: 95% !important;
+    flex-direction: column !important;
+    bottom: 0 !important;
+    position: relative !important;
+    gap: 50px;
+  }
+  .Why-Us-Content-Image{
+    width: 100% !important;
+  }
+  .Why-Us-Content-Card{
+    width: 100% !important;
+    
+  }
+  .Why-Us-Content-Card-Content h1{
+      font-size: 1em !important;
+      font-weight: 700;
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+  }
+  .Why-Us-Content-Card-Content p{
+      margin: 0;
+      font-size: 0.7em !important;
+      font-family: 'Nunito', sans-serif;
+      
+      font-weight: 400;
+  }
+  .Feedback-Content{
+    width: 95% !important;
+  }
+  .Feedback-Content-Description{
+    width: 95% !important;
+    margin-top: 50px !important;
+  }
+  .Feedback-Content-Description p{
+    margin-left: 0px !important;
+  }
+  .Feedback-Content-Description button{
+    margin-left: 0px !important;
+  }
+  .Feedback-Content-Title div{
+    display: none ;
+  }
+  .Feedback-Content-Title{
+    width: 100% !important;
+  }
+  .Numbers{
+    width: 95% !important;
+    margin-bottom: 50px !important;
+    margin-left: 0px !important;
+    gap: 20px !important;
+  }
+  .Numbers div h1{
+    font-size: 1.3em !important;
+  }
+  .Numbers div p{
+    margin: 0;
+    font-size: 0.50em !important;
+}
+  .Top-Right{
+    display: none;
+  }
+    .Feedback-Content-Title h1{
+      color: white;
+      font-size: 1.5em !important;
+      width: 80% !important;
+      margin: 0;
+      font-family: "Archivo Black", sans-serif;
+  }
+  
+  .Feedback-Content-Description p{
+      font-size: 0.65em !important;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+      width: 80% !important;
+      margin-left: 20px;
+      font-weight: bold;
+  }
+  .Faq-Questions-Wrap{
+    width: 100% !important;
+  }
+  .Faq-Content{
+    width: 95% !important;
+    flex-direction: column !important;
+  }
+  .Faq-Content-Title h1{
+    font-size: 1.5em !important;
+  }
+  .Faq-Content-Description p{
+    font-size: 0.7em !important;
+  }
+  .Faq-Item-Question h1{
+    font-size: 0.7em !important;
+    width: 90% !important;
+  }
+  .Faq-Item-Question  span{
+    width: 10% !important;
+    font-size: 1.2em !important;
+  }
+  .Faq-Content-Description{
+    width: 100% !important;
+  }
+  .Faq-Content-Title-Questions{
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .Ref-Content{
+    width: 90% !important;
+    flex-direction: column !important;
+    justify-content: center !important; 
+    align-items: center !important;
+  }
+  .Ref-Content-Title{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .Ref-Content-Title div{
+    width: 50px !important;
+    height: 3px !important;
+  }
+  .Ref-Content-Descirption{
+    margin-top: 150px;
+    margin-bottom: 50px !important;
+    width: 95% !important;
+    align-items: center !important;
+    align-self: center !important;
+    text-align: center !important;
+  }
+  .Ref-Content-Card-Wrap{
+    margin-top: 50px !important;
+    align-self: center !important;
+    width: 95% !important;
+  }
+  .Footer-Contact{
+    width: 90% !important;
+  }
+  .Footer-Nav{
+    width: 90% !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 50px !important;
+    text-align: center !important;
+  }
+}
+@media only screen and (min-width:440px) and (max-width:624px){
+  .Header-Content{
+    width: 90% !important;
+    
+   
+  }
+  .Cover-Container{
+    flex-direction: column-reverse !important;
+  }
+  .Cover-Image{
+    width:95% !important;
+    align-self: flex-end !important;
+    height: 500px !important;
+    margin-top: -600px;
+    position: relative !important;
+    
+  }
+  .Cover-Content{
+   margin-bottom: 400px !important;
+    height: 50%;
+  }
+  .Cover-Content-Descirption{
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    align-self: center;
+    margin-bottom: 250px !important;
+  }
+  .Cover-Content-Title h1{
+    font-size: 2em !important;
+  }
+ 
+  .About-Us-Content{
+    width: 90% !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse !important;
+    gap: 50px;
+  }
+  .About-Us-Content-Image{
+    width: 90% !important;
+  }
+  .About-Us-Content-Description{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .About-Us-Content-Description p{
+    text-align: center;
+  }
+  .About-Us-Content-Title{
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .About-Us-Content-Title div{
+    width: 50px !important;
+    height: 4px !important;
+  }
+  .About-Us-Content-Title h1{
+    text-align: center !important;
+  }
+  .My-Services-Content{
+    width: 90% !important;
+    
+  }
+  .My-Services-Card-Wrap{
+    flex-direction: column !important;
+    gap: 50px;
+  }
+  .My-Services-Card{
+    width: 100% !important;
+  }
+  .My-Services-Card h1{
+    font-size: 1em !important;
+  }
+  .My-Services-Card p{
+    font-size: 0.7em !important;
+  }
+  .Why-Us-Content{
+    width: 90% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .Why-Us-Content-Card-Wrap{
+    margin-top: -200px;
+    width: 95% !important;
+    flex-direction: column !important;
+    bottom: 0 !important;
+    position: relative !important;
+    gap: 50px;
+  }
+  .Why-Us-Content-Image{
+    width: 100% !important;
+  }
+  .Why-Us-Content-Card{
+    width: 100% !important;
+    
+  }
+  .Why-Us-Content-Card-Content h1{
+      font-size: 1em !important;
+      font-weight: 700;
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+  }
+  .Why-Us-Content-Card-Content p{
+      margin: 0;
+      font-size: 0.7em !important;
+      font-family: 'Nunito', sans-serif;
+      
+      font-weight: 400;
+  }
+  .Feedback-Content{
+    width: 95% !important;
+  }
+  .Feedback-Content-Description{
+    width: 95% !important;
+    margin-top: 50px !important;
+  }
+  .Feedback-Content-Title{
+    width: 100% !important;
+  }
+  .Numbers{
+    width: 95% !important;
+    margin-bottom: 50px !important;
+    margin-left: 20px !important;
+  }
+  .Numbers div h1{
+    font-size: 1.5em !important;
+  }
+  .Numbers div p{
+    margin: 0;
+    font-size: 0.60em !important;
+}
+  .Top-Right{
+    display: none;
+  }
+    .Feedback-Content-Title h1{
+      color: white;
+      font-size: 1.5em !important;
+      width: 80% !important;
+      margin: 0;
+      font-family: "Archivo Black", sans-serif;
+  }
+  
+  .Feedback-Content-Description p{
+      font-size: 0.65em !important;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+      width: 80% !important;
+      margin-left: 20px;
+      font-weight: bold;
+  }
+  .Faq-Content{
+    width: 90% !important;
+    flex-direction: column !important;
+  }
+  .Faq-Content-Description{
+    width: 100% !important;
+  }
+  .Faq-Content-Title-Questions{
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .Ref-Content{
+    width: 90% !important;
+    flex-direction: column !important;
+    justify-content: center !important; 
+    align-items: center !important;
+  }
+  .Ref-Content-Title{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .Ref-Content-Title div{
+    width: 50px !important;
+    height: 3px !important;
+  }
+  .Ref-Content-Descirption{
+    margin-top: 150px;
+    margin-bottom: 50px !important;
+    width: 95% !important;
+    align-items: center !important;
+    align-self: center !important;
+    text-align: center !important;
+  }
+  .Ref-Content-Card-Wrap{
+    margin-top: 50px !important;
+    align-self: center !important;
+    width: 95% !important;
+  }
+  .Footer-Contact{
+    width: 90% !important;
+  }
+  .Footer-Nav{
+    width: 90% !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 50px !important;
+    text-align: center !important;
+  }
+}
+@media only screen and (min-width:625px) and (max-width:844px){
+  .Header-Content{
+    width: 90% !important;
+    
+   
+  }
+  .Cover-Container{
+    flex-direction: column-reverse !important;
+  }
+  .Cover-Image{
+    width:95% !important;
+    align-self: flex-end !important;
+    height: 500px !important;
+    margin-top: -600px;
+    position: relative !important;
+    
+  }
+  .Cover-Content{
+   margin-bottom: 400px !important;
+    height: 50%;
+  }
+  .Cover-Content-Descirption{
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    align-self: center;
+    margin-bottom: 250px !important;
+  }
+  .Cover-Content-Title h1{
+    font-size: 2em !important;
+  }
+ 
+  .About-Us-Content{
+    width: 90% !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse !important;
+    gap: 50px;
+  }
+  .About-Us-Content-Image{
+    width: 90% !important;
+  }
+  .About-Us-Content-Description{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .About-Us-Content-Description p{
+    text-align: center;
+  }
+  .About-Us-Content-Title{
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .About-Us-Content-Title div{
+    width: 50px !important;
+    height: 4px !important;
+  }
+  .About-Us-Content-Title h1{
+    text-align: center !important;
+  }
+  .My-Services-Card-Wrap{
+    flex-direction: column !important;
+    gap: 50px;
+  }
+  .My-Services-Card{
+    width: 100% !important;
+  }
+  .My-Services-Card h1{
+    font-size: 1em !important;
+  }
+  .My-Services-Card p{
+    font-size: 0.7em !important;
+  }
+  .Why-Us-Content{
+    width: 90% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .Why-Us-Content-Card-Wrap{
+    margin-top: -200px;
+    width: 95% !important;
+    flex-direction: column !important;
+    bottom: 0 !important;
+    position: relative !important;
+    gap: 50px;
+  }
+  .Why-Us-Content-Image{
+    width: 100% !important;
+  }
+  .Why-Us-Content-Card{
+    width: 100% !important;
+    
+  }
+  .Why-Us-Content-Card-Content h1{
+      font-size: 1em !important;
+      font-weight: 700;
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+  }
+  .Why-Us-Content-Card-Content p{
+      margin: 0;
+      font-size: 0.7em !important;
+      font-family: 'Nunito', sans-serif;
+      
+      font-weight: 400;
+  }
+  .Feedback-Content{
+    width: 90% !important;
+  }
+  .Feedback-Content-Description{
+    width: 80% !important;
+  }
+  .Feedback-Content-Title{
+    width: 100% !important;
+  }
+  .Numbers{
+    width: 80% !important;
+  }
+  .Numbers div h1{
+    font-size: 2em !important;
+  }
+    .Feedback-Content-Title h1{
+      color: white;
+      font-size: 2em;
+      width: 80% !important;
+      margin: 0;
+      font-family: "Archivo Black", sans-serif;
+  }
+
+  .Feedback-Content-Description p{
+      font-size: 0.8em;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+      width: 80% !important;
+      margin-left: 20px;
+      font-weight: bold;
+  }
+  .Faq-Content{
+    width: 90% !important;
+    flex-direction: column !important;
+  }
+  .Faq-Content-Description{
+    width: 100% !important;
+  }
+  .Faq-Content-Title-Questions{
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .Ref-Content{
+    width: 90% !important;
+    flex-direction: column !important;
+    justify-content: center !important; 
+    align-items: center !important;
+  }
+  .Ref-Content-Title{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .Ref-Content-Title div{
+    width: 50px !important;
+    height: 3px !important;
+  }
+  .Ref-Content-Descirption{
+    margin-top: 150px;
+    margin-bottom: 50px !important;
+    width: 70% !important;
+    align-items: center !important;
+    align-self: center !important;
+    text-align: center !important;
+  }
+  .Ref-Content-Card-Wrap{
+    margin-top: 50px !important;
+    align-self: center !important;
+    width: 80% !important;
+  }
+  .Footer-Contact{
+    width: 90% !important;
+  }
+  .Footer-Nav{
+    width: 90% !important;
+  }
+}
+@media only screen and (min-width:845px) and (max-width:1023px){
+  .Header-Content{
+    width: 90% !important;
+    
+   
+  }
+  .Cover-Container{
+    flex-direction: column-reverse !important;
+  }
+  .Cover-Image{
+    width:95% !important;
+    align-self: flex-end !important;
+    height: 500px !important;
+    margin-top: -600px;
+    position: relative !important;
+    
+  }
+  .Cover-Content{
+   margin-bottom: 400px !important;
+    height: 50%;
+  }
+  .Cover-Content-Descirption{
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    align-self: center;
+    margin-bottom: 250px !important;
+  }
+  .Cover-Content-Title h1{
+    font-size: 2em !important;
+  }
+ 
+  .About-Us-Content{
+    width: 90% !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse !important;
+    gap: 50px;
+  }
+  .About-Us-Content-Image{
+    width: 90% !important;
+  }
+  .About-Us-Content-Description{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .About-Us-Content-Description p{
+    text-align: center;
+  }
+  .About-Us-Content-Title{
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .About-Us-Content-Title div{
+    width: 50px !important;
+    height: 4px !important;
+  }
+  .About-Us-Content-Title h1{
+    text-align: center !important;
+  }
+  .My-Services-Content{
+    width: 90% !important;
+  }
+  .My-Services-Card{
+    width: 32% !important;
+  }
+  .My-Services-Card-Content-Description h1{
+    font-size: 0.8em !important;
+  }
+  .My-Services-Card-Content-Description p{
+    font-size: 0.7em !important;
+  }
+  .Why-Us-Content{
+    width: 90% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .Why-Us-Content-Card-Wrap{
+    margin-top: -200px;
+    width: 95% !important;
+    flex-direction: column !important;
+    bottom: 0 !important;
+    position: relative !important;
+    gap: 50px;
+  }
+  .Why-Us-Content-Image{
+    width: 100% !important;
+  }
+  .Why-Us-Content-Card{
+    width: 100% !important;
+    
+  }
+  .Why-Us-Content-Card-Content h1{
+    font-size: 1em !important;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+  }
+  .Why-Us-Content-Card-Content p{
+      margin: 0;
+      font-size: 0.7em !important;
+      font-family: 'Nunito', sans-serif;
+      
+      font-weight: 400;
+  }
+  .Feedback-Content{
+    width: 90% !important;
+  }
+  .Feedback-Content-Description{
+    width: 80% !important;
+  }
+  .Feedback-Content-Title{
+    width: 100% !important;
+  }
+  .Numbers{
+    width: 80% !important;
+  }
+  .Numbers div h1{
+    font-size: 2.6em !important;
+  }
+  .Feedback-Content-Title h1{
+    color: white;
+    font-size: 2em;
+    width: 80% !important;
+    margin: 0;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.Feedback-Content-Description p{
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    width: 80% !important;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.Faq-Content{
+  width: 90% !important;
+  flex-direction: column !important;
+}
+.Faq-Content-Description{
+  width: 100% !important;
+}
+.Faq-Content-Title-Questions{
+  width: 100% !important;
+  margin-top: 50px;
+}
+.Faq-Content-Title{
+  justify-content: left !important;
+}
+.Ref-Content{
+  width: 90% !important;
+  flex-direction: column !important;
+  justify-content: center !important; 
+  align-items: center !important;
+}
+.Ref-Content-Title{
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.Ref-Content-Title div{
+  width: 50px !important;
+  height: 3px !important;
+}
+.Ref-Content-Descirption{
+  margin-top: 150px;
+  margin-bottom: 50px !important;
+  width: 70% !important;
+  align-items: center !important;
+  align-self: center !important;
+  text-align: center !important;
+}
+.Ref-Content-Card-Wrap{
+  margin-top: 50px !important;
+  align-self: center !important;
+  width: 70% !important;
+}
+.Footer-Contact{
+  width: 90% !important;
+}
+.Footer-Nav{
+  width: 90% !important;
+}
+}
+@media only screen and (min-width:1024px) and (max-width:1149px){
+  .Header-Content{
+    width: 90% !important;
+  }
+  .Cover-Content-Title h1{
+    font-size: 2em !important;
+  }
+  .Cover-Image{
+    width:60% !important;
+  }
+  .Cover-Content-Descirption{
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    align-self: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+  }
+  .About-Us-Content{
+    width: 90% !important;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.My-Services-Content{
+  width: 90% !important;
+}.My-Services-Card{
+  width: 32% !important;
+}
+.Why-Us-Content{
+  width: 90% !important;
+}
+.Why-Us-Content-Card-Wrap{
+  width: 90% !important;
+}
+.Why-Us-Content-Card-Content h1{
+  font-size: 1em !important;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+.Why-Us-Content-Card-Content p{
+  margin: 0;
+  font-size: 0.7em !important;
+  font-family: 'Nunito', sans-serif;
+  
+  font-weight: 400;
+}
+.Feedback-Content{
+  width: 90% !important;
+}
+.Feedback-Content-Description{
+  width: 80% !important;
+}
+.Numbers{
+  width: 80% !important;
+}
+.Faq-Content{
+  width: 90% !important;
+  flex-direction: column !important;
+}
+.Faq-Content-Description{
+  width: 100% !important;
+}
+.Faq-Content-Title-Questions{
+  width: 100% !important;
+  margin-top: 50px;
+}
+.Faq-Content-Title{
+  justify-content: left !important;
+}
+.Ref-Content{
+  width: 90% !important;
+}
+.Footer-Contact{
+  width: 90% !important;
+}
+.Footer-Nav{
+  width: 90% !important;
+}
+}
+@media only screen and (min-width:1150px) and (max-width:1300px){
+  .Header-Content{
+    width: 90% !important;
+  }
+  .Cover-Content-Title h1{
+    font-size: 2.1em !important;
+  }
+  .Cover-Image{
+    width:55% !important;
+  }
+  .Cover-Content-Descirption{
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    align-self: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+.About-Us-Content{
+  width: 90% !important;
+  
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.My-Services-Content{
+  width: 90% !important;
+}
+.My-Services-Card{
+  width: 32% !important;
+}
+.Why-Us-Content{
+  width:90% !important;
+}
+.Why-Us-Content-Card-Wrap{
+  width: 85% !important;
+}
+.Why-Us-Content-Card-Content h1{
+  font-size: 1em !important;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+.Why-Us-Content-Card-Content p{
+  margin: 0;
+  font-size: 0.7em !important;
+  font-family: 'Nunito', sans-serif;
+  
+  font-weight: 400;
+}
+.Feedback-Content{
+  width: 90% !important;
+}
+.Feedback-Content-Description{
+  width: 80% !important;
+}
+.Numbers{
+  width: 80% !important;
+}
+.Faq-Content{
+  width: 90% !important;
+  flex-direction: column !important;
+}
+.Faq-Content-Description{
+  width: 100% !important;
+}
+.Faq-Content-Title-Questions{
+  width: 100% !important;
+  margin-top: 50px;
+}
+.Faq-Content-Title{
+  justify-content: left !important;
+}
+.Ref-Content{
+  width: 90% !important;
+}
+.Footer-Contact{
+  width: 90% !important;
+}
+.Footer-Nav{
+  width: 90% !important;
+}
+}
+@media only screen and (min-width:1300px) and (max-width:1700px) {
+   
+    .Header-Content{
+      width: 80% !important;
+    }
+    .Cover-Content-Descirption{
+      display: flex;
+      flex-direction: column;
+      width: 80% !important;
+      align-self: center;
+      margin-bottom: 150px;
+  }
+  .About-Us-Content{
+      width: 80% !important;
+      
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+  }
+  .My-Services-Content{
+    width: 80% !important;
+  }
+  .Why-Us-Content{
+    width: 80% !important;
+  }
+  .Why-Us-Content-Card-Wrap{
+    width: 85% !important;
+  }
+  .Feedback-Content{
+    width: 80% !important;
+  }
+  .Feedback-Content-Description{
+    width: 80% !important;
+  }
+  .Numbers{
+    width: 80% !important;
+  }
+  .Faq-Content{
+    width: 80% !important;
+    
+  }
+  .Ref-Content{
+    width: 80% !important;
+  }
+  .Footer-Contact{
+    width: 80% !important;
+  }
+  .Footer-Nav{
+    width: 80% !important;
+  }
 }
