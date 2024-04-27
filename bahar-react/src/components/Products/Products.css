@@ -1,0 +1,121 @@
+.Products-Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Products-Title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #02413e;
+    width: 70%;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    align-self: center;
+}
+.Products-Title-Content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 100%;
+    align-self: center;
+    font-size: 25px;
+}
+.Products-Title-Content div{
+    width: 50px;
+    height: 3px;
+    background-color: #09a144;;
+    align-self: center;
+
+}
+.Products-Title-Content p{
+    font-size: 0.8em;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 500;
+    text-align: center;
+    align-self: center;
+    color: white;
+    width: 50%;
+}
+.Products-Title-Content h1{
+    font-size: 2em;
+    color: white;
+    font-family: 'Archivo Black',sans-serif ;
+    align-self: center;
+    margin: 0;
+   
+}
+.Products-Container .Header-Container{
+    background-color: #f8f7f5;
+}
+.Products-Container .Nav-Left a{
+    color: black;
+}
+.Products-Title-Content button{
+    padding: 15px 30px;
+    width: 200px;
+    align-self: center;
+    border-radius: 50px;
+    background-color: #09a144;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8em;
+    transition: 300ms ease-in-out;
+}
+.Products-Title-Content button:hover{
+    background-color: transparent;
+    outline: 1px solid white;
+    cursor: pointer;
+}
+.Products-Card-Wrap{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Products-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding-left: 25px;
+    font-size: 25px;
+    width: 360px;
+    box-shadow: 0 2px 6px 0 rgba(54, 63, 60, .08);;
+    border-radius: 25px;
+    background-color: white;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.Products-Card p{
+    font-size: 0.8em;
+    width: 90%;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.Products-Card h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.Products-Card img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 50px;
+}

@@ -1,6 +1,6 @@
 .Feedback-Container{
     width: 100%;
-    height: 120vh;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +28,7 @@
     flex-direction: row;
     font-size: 25px;
     gap: 20px;
+    margin-top: 150px;
 }
 .Feedback-Content-Title div{
     width: 3px;
@@ -76,6 +77,8 @@
     gap: 60px;
     color: white;
     font-family: 'Nunito', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 150px;
 }
 .Numbers div{
     font-size: 25px;

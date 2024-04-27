@@ -13,7 +13,7 @@ function WhyUs(){
 
                     </div>
                     <h1>
-                        Zasto izabrati nas?
+                        Zašto izabrati nas?
                     </h1>
                 </div>
                 <div class="Why-Us-Content-Image">

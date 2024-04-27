@@ -20,7 +20,7 @@
     border-radius: 50px;
 }
 .My-Services-Title{
-    margin-top: 50px;
+    margin-top: 150px;
     width: 90%;
     font-size: 25px;
     display: flex;
@@ -102,7 +102,7 @@
     flex-direction: row;
     gap: 20px;
     font-size: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .Top-Left, .Bottom-Right{

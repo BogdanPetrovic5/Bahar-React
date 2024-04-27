@@ -10,7 +10,7 @@ function Feedback(){
 
                         </div>
                         <h1>
-                            Moji rezultati i iskustva govore za sebe!
+                            Naši rezultati i iskustva govore za sebe!
                         </h1>
                     </div>
                     <p>

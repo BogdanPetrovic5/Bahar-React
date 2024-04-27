@@ -144,6 +144,6 @@
     margin-left: 40px;
 }
 .Answer.open {
-    max-height: 200px; /* adjust the value according to your content */
+    max-height: 200px; 
     animation: growDown 400ms ease-in-out forwards;
 }

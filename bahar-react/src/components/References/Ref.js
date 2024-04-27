@@ -13,7 +13,7 @@ function Ref(){
 
                         </div>
                         <h1>
-                            Nase uspesne saradnje!
+                            Uspešne saradnje!
                         </h1>
                     </div>
                     <p>

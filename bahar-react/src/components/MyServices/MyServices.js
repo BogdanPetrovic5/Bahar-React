@@ -1,8 +1,32 @@
 import './MyServices.css'
-import CondensingUints from './images/fan.png'
-import Panels from './images/panels.png'
-import Doors from './images/safe.png'
+import CondensingUints from './images/evw.png'
+import Panels from './images/panelw.png'
+import Doors from './images/doorsw.png'
 function MyServices(){
+    const Products = [
+        {   
+            name:"Kondezacion jedinice",
+            purpose:"Lorem ipsum genrator is simply nothing",
+            description:"Lorem ipsum genrator is simply nothing, Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing",
+            imgPath:'/assets/kondenz.png'
+        },
+        {   
+            name:"Isparivaci",
+            purpose:"Lorem ipsum genrator is simply nothing",
+            description:"Lorem ipsum genrator is simply nothing, Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing",
+            imgPath:'/assets/isparivaci.png'
+        },
+        {   
+            name:"Termoizolaciona vrata",
+            purpose:"Lorem ipsum genrator is simply nothing",
+            description:"Lorem ipsum genrator is simply nothing, Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing"
+        },
+        {   
+            name:"Termoizolacioni paneli",
+            purpose:"Lorem ipsum genrator is simply nothing",
+            description:"Lorem ipsum genrator is simply nothing, Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing"
+        }
+    ]
     return(
         <div class='My-Services-Container'>
             <div class='My-Services-Content'>
@@ -17,7 +41,7 @@ function MyServices(){
 
                     </div>
                     <h1>
-                        Sve sto vam treba na jednom mestu!
+                        Sve što vam treba na jednom mestu!
                     </h1>
                 </div>
                 <div class='My-Services-Card-Wrap'>
@@ -26,7 +50,7 @@ function MyServices(){
                             <img src={CondensingUints}/>
                             <div class='My-Services-Card-Content-Description'>
                                 <h1>
-                                    Kondenazcione jedinice i isparivaci
+                                    Kondenazcione jedinice i isparivači
                                 </h1>
                                 <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -66,7 +90,7 @@ function MyServices(){
                 </div>
                 <div class='My-Services-Buttons-Wrap'>
                         <button class='About-us-Button'>
-                            O nama
+                            Proizvodi
                         </button>
                         <button class='Contact-Button'>
                             Kontakt
