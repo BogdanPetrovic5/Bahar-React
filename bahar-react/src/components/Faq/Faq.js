@@ -10,7 +10,7 @@ function Faq(){
 
     };
     return(
-        <div class='Faq-Container'>
+        <div class='Faq-Container' id='Faq'>
             <div class='Faq-Content'>
                 <div class='Faq-Content-Description'>
                     <div class='Faq-Content-Title'>
@@ -30,12 +30,12 @@ function Faq(){
                 </div>
                 <div class='Faq-Content-Title-Questions'>
                     <div class='Faq-Questions-Wrap'>
-                        <div class='Faq-Item' id="First-Item" > 
+                        <div class='Faq-Item' id="First-Item"  onClick={() => handleQuestionClick('First-Question')}> 
                             <div className='Faq-Item-Question'>
                                 <h1>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry?
                                 </h1>
-                                <span className={selectedQuestion === 'First-Question' ? 'Show close' : 'Show'}  onClick={() => handleQuestionClick('First-Question')}>
+                                <span className={selectedQuestion === 'First-Question' ? 'Show close' : 'Show'} >
                                     ✢
                                 </span>
                             </div>
@@ -45,12 +45,12 @@ function Faq(){
                             
                             </div>
                         </div>
-                        <div class='Faq-Item' id="Second-Item">
+                        <div class='Faq-Item' id="Second-Item"  onClick={() => handleQuestionClick('Second-Question')}>
                             <div className='Faq-Item-Question'>
                                 <h1>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry?
                                 </h1>
-                                <span  className={selectedQuestion === 'Second-Question' ? 'Show close' : 'Show'} onClick={() => handleQuestionClick('Second-Question')}>
+                                <span  className={selectedQuestion === 'Second-Question' ? 'Show close' : 'Show'} >
                                     ✢
                                 </span>
                             </div>
@@ -59,12 +59,12 @@ function Faq(){
                             
                             </div>
                         </div>
-                        <div class='Faq-Item' id="Third-Item">
-                            <div className='Faq-Item-Question'>
+                        <div class='Faq-Item' id="Third-Item" onClick={() => handleQuestionClick('Third-Question')}>
+                            <div className='Faq-Item-Question' >
                                 <h1>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry?
                                 </h1>
-                                <span className={selectedQuestion === 'Third-Question' ? 'Show close' : 'Show'}  onClick={() => handleQuestionClick('Third-Question')}>
+                                <span className={selectedQuestion === 'Third-Question' ? 'Show close' : 'Show'}  >
                                     ✢
                                 </span>
                             </div>
@@ -73,12 +73,12 @@ function Faq(){
                             
                             </div>
                         </div>
-                        <div class='Faq-Item' id="Fourth-Item">
-                            <div className='Faq-Item-Question'>
+                        <div class='Faq-Item' id="Fourth-Item"  onClick={() => handleQuestionClick('Fourth-Question')}>
+                            <div className='Faq-Item-Question'> 
                                 <h1>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry?
                                 </h1>
-                                <span className={selectedQuestion === 'Fourth-Question' ? 'Show close' : 'Show'}  onClick={() => handleQuestionClick('Fourth-Question')}>
+                                <span className={selectedQuestion === 'Fourth-Question' ? 'Show close' : 'Show'} >
                                     ✢
                                 </span>
                             </div>

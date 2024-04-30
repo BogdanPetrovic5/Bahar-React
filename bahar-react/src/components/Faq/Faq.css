@@ -93,6 +93,7 @@
     border-radius: 20px;
     align-items: center;
     background-color: white;
+    cursor: pointer;
 }
 .Faq-Item-Question{
     font-size: 25px;

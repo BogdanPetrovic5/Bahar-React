@@ -5,19 +5,38 @@ import { Link, useLocation  } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 function Header(){
     const [isClicked, setClick] = useState(false)
+    const { pathname } = useLocation();
     const logoPaths = {
         '/home': Logo,
         '/contact': Logo2,
         '/products': Logo2,
-        '/products/:id':Logo2
+        
         
     };
     const path = window.location.pathname;
       
-
-    const logoSrc = logoPaths[path] || logoPaths['default'];
+    let logoSrc = logoPaths[path] || logoPaths['default'];
+    if(pathname.startsWith('/products/')){
+        logoSrc = Logo2;
+    }
     const handleMenu = () => {
         setClick(!isClicked)
+    }
+
+ 
+
+    const scrollToSection = (section) =>{
+        const newSection = document.getElementById(section);
+
+        if (newSection) {
+        
+            const offset = 0; 
+            const offsetPosition = newSection.offsetTop - offset;
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
     }
     return(
         <div class="Header-Container">
@@ -31,12 +50,12 @@ function Header(){
                         <li>
                             <Link to='/home'>Početna</Link>
                         </li>
-                        <li>
-                            <Link>Cesta pitanja</Link>
+                        <li onClick={() => scrollToSection('Faq')}>
+                            Cesta pitanja
                             
                         </li>
-                        <li>
-                            <Link>Saradnje</Link>
+                        <li onClick={() => scrollToSection('Ref')}>
+                            Saradnje
                             
                         </li>
                         <li>
@@ -72,13 +91,13 @@ function Header(){
                    <Link to='/home'>Početna</Link>
                 </p>
               
-                <p>
+                <p  onClick={() => scrollToSection('Faq')}>
                     Cesta pitanja
                 </p>
                 <p>
                     <Link to='/products'>Proizvodi</Link>
                 </p>
-                <p>
+                <p  onClick={() => scrollToSection('Ref')}>
                     Saradnje
                 </p>
                 <Link className='Link-Button' to='/contact'>

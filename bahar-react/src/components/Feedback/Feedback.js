@@ -3,7 +3,7 @@ import CoverPh from './images/feedback.svg'
 function Feedback(){
     return (
         <div class='Feedback-Container' >
-            <div class='Feedback-Content' style={{backgroundImage: `url('${CoverPh}')`}}>
+            <div class='Feedback-Content'>
                 <div class='Feedback-Content-Description'>
                     <div class='Feedback-Content-Title'>
                         <div>

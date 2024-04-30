@@ -23,7 +23,7 @@
 .Contact-Container .Phone-Menu span{
     background-color: rgb(51, 51, 51);
 }
-.Contact-Container .Nav-Left a{
+.Contact-Container .Nav-Left li{
     color: black;
 }
 .Contact-Content{

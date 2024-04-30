@@ -53,7 +53,7 @@
 .Products-Container .Header-Container{
     background-color: #f8f7f5;
 }
-.Products-Container .Nav-Left a{
+.Products-Container .Nav-Left li{
     color: black;
 }
 .Products-Title-Content button{

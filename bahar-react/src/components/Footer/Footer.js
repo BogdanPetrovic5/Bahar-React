@@ -1,7 +1,9 @@
 import './Footer.css'
-import React from "react"
+import React, { useEffect } from "react"
 import logo from './images/baharlogo1.png'
+import { useLocation, Link } from 'react-router-dom';
 function Footer(){
+    
     return(
         <div className='Footer-Container'>
             <div className='Footer-Content'>
@@ -16,9 +18,12 @@ function Footer(){
                     <h1>
                         Pravo mesto za kupovinu! Kontaktiraj nas!
                     </h1>
+                    <Link to='/contact'>
                     <button>
                         Kontakt! <span>➜</span>
                     </button>
+                    </Link>
+                    
                 </div>
                 <div className='Footer-Nav'>
                     <div className='Footer-Logo'>
@@ -55,6 +60,20 @@ function Footer(){
 
                             <li>
                                 Isparivaci
+                            </li>
+
+                            <li>
+                                Termoizolaciona vrata
+                            </li>
+
+                            <li>
+                                Paneli
+                            </li>
+                        </div>
+                        <div className='Footer-Nav-List'>
+                            <h1>Katalozi</h1>
+                            <li>
+                                Kondezacione Jedinice i isparivači
                             </li>
 
                             <li>

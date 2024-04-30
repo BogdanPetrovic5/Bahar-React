@@ -2,31 +2,10 @@ import './MyServices.css'
 import CondensingUints from './images/evw.png'
 import Panels from './images/panelw.png'
 import Doors from './images/doorsw.png'
+
+
 function MyServices(){
-    const Products = [
-        {   
-            name:"Kondezacion jedinice",
-            purpose:"Lorem ipsum genrator is simply nothing",
-            description:"Lorem ipsum genrator is simply nothing, Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing",
-            imgPath:'/assets/kondenz.png'
-        },
-        {   
-            name:"Isparivaci",
-            purpose:"Lorem ipsum genrator is simply nothing",
-            description:"Lorem ipsum genrator is simply nothing, Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing",
-            imgPath:'/assets/isparivaci.png'
-        },
-        {   
-            name:"Termoizolaciona vrata",
-            purpose:"Lorem ipsum genrator is simply nothing",
-            description:"Lorem ipsum genrator is simply nothing, Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing"
-        },
-        {   
-            name:"Termoizolacioni paneli",
-            purpose:"Lorem ipsum genrator is simply nothing",
-            description:"Lorem ipsum genrator is simply nothing, Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothing Lorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothingLorem ipsum genrator is simply nothing"
-        }
-    ]
+    
     return(
         <div class='My-Services-Container'>
             <div class='My-Services-Content'>
@@ -45,10 +24,10 @@ function MyServices(){
                     </h1>
                 </div>
                 <div class='My-Services-Card-Wrap'>
-                    <div class='My-Services-Card'>
+                    <div class='My-Services-Card' >
                         <div class='My-Services-Card-Content'>
                             <img src={CondensingUints}/>
-                            <div class='My-Services-Card-Content-Description'>
+                            <div class='My-Services-Card-Content-Description' >
                                 <h1>
                                     Kondenazcione jedinice i isparivači
                                 </h1>

@@ -5,7 +5,19 @@ import Email from './images/email.png'
 import Phone from './images/telephone.png'
 import Location from './images/location.png'
 import Faq from '../Faq/Faq';
+import { useEffect } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 function Contact(){
+    const [state, handleSubmit] = useForm("xwkgypal");
+    if (state.succeeded) {
+        alert("Poruka uspesno poslata");
+    }
+    useEffect(()=>{
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    })
     return(
         <div class='Contact-Container'>
             <Header></Header>
@@ -25,41 +37,45 @@ function Contact(){
                     </p>
                 </div>
                 <div className='Contact-Form-Wrap'>
-                    <div className='Contact-Form'>
+                    <form className='Contact-Form' onSubmit={handleSubmit} action='https://formspree.io/f/xwkgypal'>
                         <div className='Contact-FullName input-holders'>
                            <div>
                                 <span>Ime</span>
-                                <input></input>
+                                <input type='text' name='Ime'></input>
                            </div>
                                
                            <div>
                                 <span>Prezime</span>
-                                <input></input>
+                                <input type='text' name='Prezime'></input>
                             </div>
                         </div>
                         <div className='Contact-Email input-holders'>
                             <div>
                                  <span>Email</span>
-                                <input></input>
+                                <input 
+                                id="email"
+                                type="email" 
+                                name="Email"></input>
                             </div>
-                             
                             <div>
                                 <span>Broj Telefona</span>
-                                <input></input>
+                                <input type='text' name='Broj telefona'></input>
                              </div>
                         </div>
                         <div className='Message input-holders'>
                             <div>
                                 <span>Poruka</span>
-                                <textarea>
+                                <textarea  
+                                id="message"
+                                name="Poruka">
                                 </textarea>
                              </div>
-                             <button>
+                             <button type="submit" disabled={state.submitting}>
                                 Posalji poruku!
                             </button>
                         </div>
                       
-                    </div>
+                    </form>
                 </div>
             </div>
             <div className='Contact-More-Info'>

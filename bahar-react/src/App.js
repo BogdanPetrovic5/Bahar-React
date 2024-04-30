@@ -33,7 +33,7 @@ function App() {
             <Route exact path='/contact' element={<Contact/>}></Route>
             <Route exact path='/products' element={<Products></Products>}></Route>
             <Route exact path='/products/:id' element={<ProductDetails></ProductDetails>}></Route>
-            <Route path="/" element={<Navigate replace to="/products/:id" />} />
+            <Route path="/" element={<Navigate replace to="/home" />} />
           </Routes>
         <Footer />
     </div>

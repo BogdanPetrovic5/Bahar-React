@@ -28,7 +28,8 @@
     align-items: center;
     width: 10%;
     height: 26%;
-   
+   position: relative;
+  z-index: 2;
     align-self: center;
 
   }
@@ -47,7 +48,7 @@
     background-color: rgba(214, 214, 214, 0.658);
   }
 }
-@media only screen and (min-width:300px) and (max-width:439px){
+@media only screen and (min-width:0px) and (max-width:299px){
   .Header-Content{
     width: 95% !important;
     
@@ -134,10 +135,10 @@
     width: 100% !important;
   }
   .My-Services-Card h1{
-    font-size: 1em !important;
+    font-size: 0.9em !important;
   }
   .My-Services-Card p{
-    font-size: 0.7em !important;
+    font-size: 0.65em !important;
   }
   .Why-Us-Content{
     width: 95% !important;
@@ -164,14 +165,14 @@
     
   }
   .Why-Us-Content-Card-Content h1{
-      font-size: 1em !important;
+      font-size: 0.9em !important;
       font-weight: 700;
       font-family: 'Nunito', sans-serif;
       margin: 0;
   }
   .Why-Us-Content-Card-Content p{
       margin: 0;
-      font-size: 0.7em !important;
+      font-size: 0.65em !important;
       font-family: 'Nunito', sans-serif;
       
       font-weight: 400;
@@ -239,7 +240,7 @@
     font-size: 1.5em !important;
   }
   .Faq-Content-Description p{
-    font-size: 0.7em !important;
+    font-size: 0.8em !important;
   }
   .Faq-Item-Question h1{
     font-size: 0.7em !important;
@@ -288,7 +289,7 @@
     font-size: 0.9em !important;
   }
   .Ref-Card-Description p{
-    font-size: 0.7em !important;
+    font-size: 0.65em !important;
   }
   .Left, .Right{
     width: 40px !important;
@@ -395,7 +396,7 @@
     margin-bottom: 0;
 }
 .Products-Title-Content p{
-  font-size: 0.65em !important;
+  font-size: 0.8em !important;
   font-family: 'Nunito',sans-serif;
   font-weight: 500;
   text-align: center;
@@ -415,6 +416,494 @@
   font-size: 0.65em !important;
   padding: 10px 20px !important;
   width: 140px !important;
+}
+.Products-Detail-Content{
+  width: 90% !important;
+  flex-direction: column !important;
+}
+.Products-Detail-Content-Description{
+  width: 90% !important;
+  align-self: center !important;
+}
+
+.Details-Contact-Form-Wrap{
+  width: 90% !important;
+  position: relative !important;
+  margin-top: 50px !important;
+}
+.Details-Contact-Form{
+  width: 100% !important;
+}
+.Products-Detail-Content-Description h1{
+  font-size: 1.3em !important;
+}
+.Products-Detail-Content-Description p{
+  font-size: 0.8em !important;
+  width: 100% !important;
+}
+.Product-Details-About{
+  width: 90% !important;
+}
+.Product-Details-About-Description{
+  width: 100% !important;
+  margin-top: -100px !important;
+}
+.Details-Contact-Form-Description h1{
+  color: white;
+  font-size: 0.9em !important;
+  font-family: "Archivo Black", sans serif;
+  margin: 0;
+}
+.Details-Contact-Form-Description p{
+  font-size: 0.6em !important;
+  color: white;
+  font-family: 'Nunito',sans-serif;
+  margin: 0;
+}
+.Details-Contact-Form .Input-Holders span{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 0.6em !important;
+}
+.Product-Details-About-Description h1{
+  font-size: 0.9em !important;
+  color: black;
+  font-family: 'Archivo Black', sans-serif;
+}
+.Product-Details-About-Description p{
+  font-size: 0.7em !important;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+}
+@media only screen and (min-width:300px) and (max-width:439px){
+  .Header-Content{
+    width: 95% !important;
+    
+   
+  }
+  .Cover-Container{
+    flex-direction: column-reverse !important;
+  }
+  .Cover-Image{
+    width:95% !important;
+    align-self: flex-end !important;
+    height: 500px !important;
+    margin-top: -600px;
+    position: relative !important;
+    
+  }
+  .Cover-Content{
+   margin-bottom: 400px !important;
+    height: 50%;
+  }
+  .Cover-Content-Descirption{
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    align-self: center;
+    margin-bottom: 250px !important;
+  }
+  .Cover-Content-Descirption p{
+    width: 90% !important;
+    font-size: 0.8em !important;
+  }
+  .Cover-Content-Title h1{
+    font-size: 2em !important;
+  }
+ 
+  .About-Us-Content{
+    width: 95% !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse !important;
+    gap: 50px;
+  }
+  .About-Us-Content-Image{
+    width: 90% !important;
+  }
+  .About-Us-Content-Description{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .About-Us-Content-Description p{
+    text-align: center;
+    font-size: 0.65em !important;
+  }
+  .About-Us-Content-Title{
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .About-Us-Content-Title div{
+    width: 50px !important;
+    height: 4px !important;
+  }
+  .About-Us-Content-Title h1{
+    text-align: center !important;
+    font-size: 1.5em !important;
+  }
+  .My-Services-Content{
+    width: 95% !important;
+    
+  }
+  .My-Services-Title h1{
+    font-size: 1.5em !important;
+  }
+  .My-Services-Card-Wrap{
+    flex-direction: column !important;
+    gap: 50px;
+  }
+  .My-Services-Card{
+    width: 100% !important;
+  }
+  .My-Services-Card h1{
+    font-size: 0.9em !important;
+  }
+  .My-Services-Card p{
+    font-size: 0.65em !important;
+  }
+  .Why-Us-Content{
+    width: 95% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .Why-Us-Content-Title h1{
+    font-size: 1.5em !important;
+    text-align: center !important;
+  }
+  .Why-Us-Content-Card-Wrap{
+    margin-top: -200px;
+    width: 95% !important;
+    flex-direction: column !important;
+    bottom: 0 !important;
+    position: relative !important;
+    gap: 50px;
+  }
+  .Why-Us-Content-Image{
+    width: 100% !important;
+  }
+  .Why-Us-Content-Card{
+    width: 100% !important;
+    
+  }
+  .Why-Us-Content-Card-Content h1{
+      font-size: 0.9em !important;
+      font-weight: 700;
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+  }
+  .Why-Us-Content-Card-Content p{
+      margin: 0;
+      font-size: 0.65em !important;
+      font-family: 'Nunito', sans-serif;
+      
+      font-weight: 400;
+  }
+  .Feedback-Content{
+    width: 95% !important;
+  }
+  .Feedback-Content-Description{
+    width: 95% !important;
+    margin-top: 50px !important;
+  }
+  .Feedback-Content-Description p{
+    margin-left: 0px !important;
+  }
+  .Feedback-Content-Description button{
+    margin-left: 0px !important;
+  }
+  .Feedback-Content-Title div{
+    display: none ;
+  }
+  .Feedback-Content-Title{
+    width: 100% !important;
+    margin-top: 50px !important;
+  }
+  .Numbers{
+    width: 95% !important;
+    margin-bottom: 100px !important;
+    margin-left: 0px !important;
+    gap: 20px !important;
+  }
+  .Numbers div h1{
+    font-size: 1.3em !important;
+  }
+  .Numbers div p{
+    margin: 0;
+    font-size: 0.50em !important;
+}
+  .Top-Right{
+    display: none;
+  }
+    .Feedback-Content-Title h1{
+      color: white;
+      font-size: 1.5em !important;
+      width: 80% !important;
+      margin: 0;
+      font-family: "Archivo Black", sans-serif;
+  }
+  
+  .Feedback-Content-Description p{
+      font-size: 0.65em !important;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+      width: 80% !important;
+      margin-left: 20px;
+      font-weight: bold;
+  }
+  .Faq-Questions-Wrap{
+    width: 100% !important;
+  }
+  .Faq-Content{
+    width: 95% !important;
+    flex-direction: column !important;
+  }
+  .Faq-Content-Title h1{
+    font-size: 1.5em !important;
+  }
+  .Faq-Content-Description p{
+    font-size: 0.8em !important;
+  }
+  .Faq-Item-Question h1{
+    font-size: 0.7em !important;
+    width: 90% !important;
+  }
+  .Faq-Item-Question  span{
+    width: 10% !important;
+    font-size: 1.2em !important;
+  }
+  .Faq-Content-Description{
+    width: 100% !important;
+  }
+  .Faq-Content-Title-Questions{
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .Ref-Content{
+    width: 90% !important;
+    flex-direction: column !important;
+    justify-content: center !important; 
+    align-items: center !important;
+  }
+  .Ref-Content-Title{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .Ref-Content-Title div{
+    width: 50px !important;
+    height: 3px !important;
+  }
+  .Ref-Content-Descirption{
+    margin-top: 150px;
+    margin-bottom: 50px !important;
+    width: 95% !important;
+    align-items: center !important;
+    align-self: center !important;
+    text-align: center !important;
+  }
+  .Ref-Content-Card-Wrap{
+    margin-top: 50px !important;
+    align-self: center !important;
+    width: 95% !important;
+  }
+  .Ref-Card-Description h1{
+    font-size: 0.9em !important;
+  }
+  .Ref-Card-Description p{
+    font-size: 0.65em !important;
+  }
+  .Left, .Right{
+    width: 40px !important;
+    height: 40px !important;
+    top: 40% !important;
+  }
+  .Footer-Contact{
+    width: 90% !important;
+  }
+  .Footer-Contact h1{
+    width: 90% !important;
+    z-index: 2;
+  }
+  .Footer-Nav{
+    width: 90% !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 50px !important;
+    text-align: center !important;
+  }
+  .Contact-Content{
+    flex-direction: column !important;
+    width: 90% !important;
+  }
+  .Contact-More-Info-Card{
+    flex-direction: column !important;
+  }
+  .Contact-More-Info-Image iframe{
+    width: 100%;
+  }
+  .Contact-Content-Title{
+    flex-direction: column !important;
+    align-items: center !important;
+    align-self: center !important;
+    justify-content: center;
+  }
+  .Contact-Content-Title div{
+    width: 50px !important;
+    height: 3px !important;
+  }
+  .Contact-Content-Title h1{
+    font-size: 1.5em !important;
+    text-align: center !important;
+  }
+  .Contact-Content-Description{
+    width: 90% !important;
+    align-self: center !important;
+    align-items: center;
+    text-align: center;
+    margin-top: 5% !important;
+  }
+  .Contact-Content-Description p{
+    font-size: 0.7em !important;
+  }
+  .Contact-Form-Wrap{
+    width: 90% !important;
+    align-self: center !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px !important;
+    align-items: center !important;
+    margin-bottom: 5% !important;
+  }
+  .Contact-Form{
+    width: 100% !important;
+  }
+  .Contact-More-Info{
+    width: 90% !important;
+  }
+  .Contact-More-Info-Title h1{
+    font-size: 1.5em !important;
+  }
+  .Contact-More-Info-Image{
+    width: 100% !important;
+  }
+  .Products-Title{
+    width: 90% !important;
+  }
+  .Products-Title-Content button{
+    width: 50% !important;
+  }
+  .Products-Title-Content h1{
+    text-align: center;
+  }
+  .Products-Title-Content p{
+    width: 80% !important;
+  }
+  .Products-Title{
+    width: 90% !important;
+  }
+  .Products-Card p{
+    font-size: 0.65em !important;
+    width: 90%;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.Products-Card h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9em !important;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.Products-Title-Content p{
+  font-size: 0.8em !important;
+  font-family: 'Nunito',sans-serif;
+  font-weight: 500;
+  text-align: center;
+  align-self: center;
+  color: white;
+  width: 50%;
+}
+.Products-Title-Content h1{
+  font-size: 1.5em !important;
+  color: white;
+  font-family: 'Archivo Black',sans-serif ;
+  align-self: center;
+  margin: 0;
+ 
+}
+.Products-Title-Content button{
+  font-size: 0.65em !important;
+  padding: 10px 20px !important;
+  width: 140px !important;
+}
+.Products-Detail-Content{
+  width: 90% !important;
+  flex-direction: column !important;
+}
+.Products-Detail-Content-Description{
+  width: 90% !important;
+  align-self: center !important;
+}
+
+.Details-Contact-Form-Wrap{
+  width: 90% !important;
+  position: relative !important;
+  margin-top: 50px !important;
+}
+.Details-Contact-Form{
+  width: 100% !important;
+}
+.Products-Detail-Content-Description h1{
+  font-size: 1.3em !important;
+}
+.Products-Detail-Content-Description p{
+  font-size: 0.8em !important;
+  width: 100% !important;
+}
+.Product-Details-About{
+  width: 90% !important;
+}
+.Product-Details-About-Description{
+  width: 100% !important;
+  margin-top: -100px !important;
+}
+.Details-Contact-Form-Description h1{
+  color: white;
+  font-size: 0.9em !important;
+  font-family: "Archivo Black", sans serif;
+  margin: 0;
+}
+.Details-Contact-Form-Description p{
+  font-size: 0.6em !important;
+  color: white;
+  font-family: 'Nunito',sans-serif;
+  margin: 0;
+}
+.Details-Contact-Form .Input-Holders span{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 0.6em !important;
+}
+.Product-Details-About-Description h1{
+  font-size: 0.9em !important;
+  color: black;
+  font-family: 'Archivo Black', sans-serif;
+}
+.Product-Details-About-Description p{
+  font-size: 0.7em !important;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
 }
 }
 @media only screen and (min-width:440px) and (max-width:624px){
@@ -720,6 +1209,33 @@
   padding: 10px 20px !important;
   width: 160px !important;
 }
+.Products-Detail-Content{
+  width: 90% !important;
+  flex-direction: column !important;
+}
+.Products-Detail-Content-Description{
+  width: 90% !important;
+  align-self: center !important;
+}
+.Products-Detail-Content-Description h1{
+  font-size: 1.5em !important;
+}
+.Products-Detail-Content-Description p{
+  font-size: 0.7em !important;
+  width: 100% !important;
+}
+.Details-Contact-Form-Wrap{
+  width: 90% !important;
+  position: relative !important;
+  margin-top: 50px !important;
+}
+.Product-Details-About{
+  width: 90% !important;
+}
+.Product-Details-About-Description{
+  width: 100% !important;
+  margin-top: -100px !important;
+}
 }
 @media only screen and (min-width:625px) and (max-width:844px){
   .Header-Content{
@@ -1000,7 +1516,27 @@
   margin: 0;
  
 }
+.Products-Detail-Content{
+  width: 90% !important;
+  flex-direction: column !important;
+}
+.Products-Detail-Content-Description{
+  width: 90% !important;
+  align-self: center !important;
+}
 
+.Details-Contact-Form-Wrap{
+  width: 90% !important;
+  position: relative !important;
+  margin-top: 50px !important;
+}
+.Product-Details-About{
+  width: 90% !important;
+}
+.Product-Details-About-Description{
+  width: 100% !important;
+  margin-top: -100px !important;
+}
 }
 @media only screen and (min-width:845px) and (max-width:1023px){
   .Header-Content{
@@ -1257,6 +1793,27 @@
 .Products-Title{
   width: 90% !important;
 }
+.Products-Detail-Content{
+  width: 90% !important;
+  flex-direction: column !important;
+}
+.Products-Detail-Content-Description{
+  width: 90% !important;
+  align-self: center !important;
+}
+
+.Details-Contact-Form-Wrap{
+  width: 90% !important;
+  position: relative !important;
+  margin-top: 50px !important;
+}
+.Product-Details-About{
+  width: 90% !important;
+}
+.Product-Details-About-Description{
+  width: 100% !important;
+  margin-top: -100px !important;
+}
 }
 @media only screen and (min-width:1024px) and (max-width:1149px){
   .Header-Content{
@@ -1340,6 +1897,9 @@
   width: 90% !important;
 }
 .Products-Title{
+  width: 90% !important;
+}
+.Products-Detail-Content{
   width: 90% !important;
 }
 }
@@ -1428,6 +1988,9 @@
 .Products-Title{
   width: 90% !important;
 }
+.Products-Detail-Content{
+  width: 90% !important;
+}
 }
 @media only screen and (min-width:1300px) and (max-width:1700px) {
    
@@ -1480,6 +2043,9 @@
     width: 80% !important;
   }
   .Products-Title{
+    width: 80% !important;
+  }
+  .Products-Detail-Content{
     width: 80% !important;
   }
 }

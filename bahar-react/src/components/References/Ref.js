@@ -5,7 +5,7 @@ import Left from './images/left.png'
 import Right from './images/right.png'
 function Ref(){
     return(
-        <div class="Ref-Container">
+        <div class="Ref-Container" id='Ref'>
             <div class="Ref-Content" style={{backgroundImage: `url('${CoverPhoto}`}}>
                 <div className='Ref-Content-Descirption'>
                     <div className='Ref-Content-Title'>
