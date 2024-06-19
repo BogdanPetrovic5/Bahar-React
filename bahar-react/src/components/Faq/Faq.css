@@ -56,15 +56,23 @@
     color: white;
     display: flex;
     flex-direction: row;
+    padding: 15px 40px;
     justify-content: center;
     align-items: center;
+    border: none;
+    outline: none;
     gap: 10px;
+    font-size: 0.7em;
+    font-family: 'Nunito', sans-serif;
     margin-left: 20px;
+    border-radius: 50px;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
 }
 .Faq-Content-Description button:hover{
     color: black;
     background-color: transparent;
-    border: 1px solid black;
+    outline: 1px solid black;
     gap: 15px;
 }
 .Faq-Content-Title-Questions{

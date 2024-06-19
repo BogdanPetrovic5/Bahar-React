@@ -54,6 +54,31 @@
     
    
   }
+  .Cover-Title{
+    margin-top: 100px !important;
+    width: 95% !important;
+  }
+  .heading{
+    color: white;
+    font-size: 1.9em !important;
+    margin: 0;
+    font-weight: 900;
+}
+.sub-heading{
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7em !important;
+    width: 60%;
+    opacity: 0.7;
+    color: white;
+}
+
+
+.Cover-Title .cover-bttn-wrap{
+    display: flex;
+    flex-direction: column !important;
+    gap: 20px;
+    margin-top: 50px;
+}
   .Cover-Container{
     flex-direction: column-reverse !important;
   }
@@ -90,8 +115,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse !important;
+    flex-direction: column !important;
     gap: 50px;
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+  }
+  .About-Us-Content-Description button{
+    width: 70% !important;
   }
   .About-Us-Content-Image{
     width: 90% !important;
@@ -111,6 +141,36 @@
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
+  }
+  .About-Us-Content-Info{
+    width: 100% !important;
+  }
+  .About-Us-Content-Info img{
+    display: none !important;
+  }
+  .About-Us-Background{
+  
+    background-position: center !important;
+    background-size:contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 50% !important;
+    
+    left: 0 !important;
+    opacity: 0.1;
+    z-index: -1;
+    top: -10% !important;
+  
+  }
+  
+  .About-Us-Achievements{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    font-size: 25px;
   }
   .About-Us-Content-Title div{
     width: 50px !important;
@@ -486,6 +546,31 @@
 }
 }
 @media only screen and (min-width:300px) and (max-width:439px){
+  .Cover-Title{
+    margin-top: 100px !important;
+    width: 95% !important;
+  }
+  .heading{
+    color: white;
+    font-size: 1.9em !important;
+    margin: 0;
+    font-weight: 900;
+}
+.sub-heading{
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7em !important;
+    width: 60%;
+    opacity: 0.7;
+    color: white;
+}
+
+
+.Cover-Title .cover-bttn-wrap{
+    display: flex;
+    flex-direction: column !important;
+    gap: 20px;
+    margin-top: 50px;
+}
   .Header-Content{
     width: 95% !important;
     
@@ -528,16 +613,45 @@
  
   .About-Us-Content{
     width: 95% !important;
-    
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse !important;
+    flex-direction: column!important;
     gap: 50px;
   }
-  .About-Us-Content-Image{
-    width: 90% !important;
+  .About-Us-Content-Info{
+    width: 100% !important;
   }
+  .About-Us-Content-Info img{
+    display: none !important;
+  }
+  .About-Us-Background{
+  
+    background-position: center !important;
+    background-size:contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 50% !important;
+    
+    left: 0 !important;
+    opacity: 0.1;
+    z-index: -1;
+    top: -10% !important;
+  
+  }
+  
+  .About-Us-Achievements{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    font-size: 25px;
+  }
+ 
   .About-Us-Content-Description{
     width: 100% !important;
     display: flex;
@@ -548,6 +662,9 @@
   .About-Us-Content-Description p{
     text-align: center;
     font-size: 0.65em !important;
+  }
+  .About-Us-Content-Description button{
+    width: 70% !important;
   }
   .About-Us-Content-Title{
     flex-direction: column !important;
@@ -564,7 +681,7 @@
   }
   .My-Services-Content{
     width: 95% !important;
-    
+    margin-top: 0px !important;
   }
   .My-Services-Title h1{
     font-size: 1.5em !important;
@@ -941,6 +1058,32 @@
 }
 }
 @media only screen and (min-width:440px) and (max-width:624px){
+  .Cover-Title{
+    width: 90% !important;
+  }
+  .Cover-Title{
+    margin-top: 100px !important;
+    width: 95% !important;
+  }
+  .heading{
+    color: white;
+    font-size: 2em !important;
+    margin: 0;
+    font-weight: 900;
+}
+.sub-heading{
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7em !important;
+    width: 60%;
+    opacity: 0.7;
+    color: white;
+}
+.Cover-Title .cover-bttn-wrap{
+    display: flex;
+    flex-direction: column !important;
+    gap: 20px;
+    margin-top: 50px;
+}
   .Header-Content{
     width: 90% !important;
     
@@ -980,12 +1123,46 @@
  
   .About-Us-Content{
     width: 90% !important;
-    
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse !important;
+    flex-direction: column !important;
     gap: 50px;
+  }
+  .About-Us-Content-Info{
+    width: 100% !important;
+  }
+  .About-Us-Content-Info img{
+    display: none !important;
+  }
+  .About-Us-Content-Description button{
+    width: 60% !important;
+  }
+  .About-Us-Background{
+  
+    background-position: center !important;
+    background-size:contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 50% !important;
+    
+    left: 0 !important;
+    opacity: 0.1;
+    z-index: -1;
+    top: -10% !important;
+  
+  }
+  
+  .About-Us-Achievements{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    font-size: 25px;
   }
   .About-Us-Content-Image{
     width: 90% !important;
@@ -1286,6 +1463,9 @@
 }
 }
 @media only screen and (min-width:625px) and (max-width:844px){
+  .Cover-Title{
+    width: 90% !important;
+  }
   .Header-Content{
     width: 90% !important;
     
@@ -1323,11 +1503,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse !important;
+    flex-direction: column !important;
     gap: 50px;
   }
-  .About-Us-Content-Image{
-    width: 90% !important;
+  .About-Us-Content-Info{
+    width: 100% !important;
+  }
+  .About-Us-Content-Info img{
+    display: none !important;
+  }
+  .About-Us-Background{
+  
+    background-position: center !important;
+    background-size:contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 50% !important;
+    
+    left: 0 !important;
+    opacity: 0.1;
+    z-index: -1;
+    top: -10% !important;
+  
+  }
+  
+  .About-Us-Achievements{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    font-size: 25px;
+  }
+  .About-Us-Content-Description button{
+    width: 60% !important;
   }
   .About-Us-Content-Description{
     width: 100% !important;
@@ -1595,6 +1805,9 @@
 }
 }
 @media only screen and (min-width:845px) and (max-width:1023px){
+  .Cover-Title{
+    width: 80% !important;
+  }
   .Header-Content{
     width: 90% !important;
     
@@ -1632,8 +1845,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse !important;
+    flex-direction: column !important;
     gap: 50px;
+  }
+  .About-Us-Content-Info{
+    width: 100% !important;
   }
   .About-Us-Content-Image{
     width: 90% !important;
@@ -1902,8 +2118,33 @@
     width: 90% !important;
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column !important;
     gap: 50px;
+}
+.About-Us-Content-Info{
+  width: 100% !important;
+}
+.About-Us-Content-Description{
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About-Us-Content-Description p{
+  text-align: center;
+}
+.About-Us-Content-Title{
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.About-Us-Content-Title div{
+  width: 50px !important;
+  height: 4px !important;
+}
+.About-Us-Content-Title h1{
+  text-align: center !important;
 }
 .My-Services-Content{
   width: 90% !important;
@@ -1995,6 +2236,9 @@
   .Cover-Content-Title h1{
     font-size: 2.1em !important;
   }
+  .Cover-Title{
+    width: 80% !important;
+  }
   .Cover-Image{
     width:55% !important;
     right: 5% !important;
@@ -2011,8 +2255,34 @@
   width: 90% !important;
   
   display: flex;
-  flex-direction: row;
+  flex-direction: column !important;
+
   gap: 50px;
+}
+.About-Us-Content-Info{
+  width: 100% !important;
+}
+.About-Us-Content-Description{
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About-Us-Content-Description p{
+  text-align: center;
+}
+.About-Us-Content-Title{
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.About-Us-Content-Title div{
+  width: 50px !important;
+  height: 4px !important;
+}
+.About-Us-Content-Title h1{
+  text-align: center !important;
 }
 .My-Services-Content{
   width: 90% !important;
@@ -2091,6 +2361,9 @@
       align-self: center;
       margin-bottom: 150px;
   }
+  .Cover-Title{
+    width: 80% !important;
+  }
   .About-Us-Content{
       width: 80% !important;
       
@@ -2098,6 +2371,7 @@
       flex-direction: row;
       gap: 50px;
   }
+  
   .My-Services-Content{
     width: 80% !important;
   }

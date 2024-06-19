@@ -17,10 +17,11 @@ function HomePage(){
             <About></About>
             <MyServices></MyServices>
             <WhyUs></WhyUs>
-            <Feedback></Feedback>
+            <Ref></Ref>
+            {/* <Feedback></Feedback> */}
             <Faq></Faq>
             
-            <Ref></Ref>
+            
         </div>
     )
 }
