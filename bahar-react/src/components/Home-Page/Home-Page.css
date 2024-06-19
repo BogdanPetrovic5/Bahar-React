@@ -3,3 +3,8 @@
     flex-direction: column;
     
 }
+.Home-Page-Container .Header-Container{
+    z-index: 2;
+    position: absolute;
+    background-color: transparent !important;
+}

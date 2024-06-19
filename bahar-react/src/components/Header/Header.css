@@ -95,7 +95,7 @@
 }
 .Nav-Left li{
     font-size: 0.65em;
-    font-family:Helvetica, sans-serif;
+    font-family:'Nunito', sans-serif;
     color: white;
     transition: 500ms;
     cursor: pointer;

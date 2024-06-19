@@ -10,6 +10,7 @@
     width: 70%;
     margin-top: 150px;
     margin-bottom: 150px;
+    overflow: hidden;
     display: flex;
     gap: 70px;
     flex-direction: column;
@@ -38,7 +39,7 @@
     font-size: 2em;
     color: white;
     text-align: center;
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 .My-Services-Card-Wrap{
     width: 90%;
@@ -89,13 +90,14 @@
     font-size: 1em;
     color: white;
     margin: 0;
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Open Sans", sans-serif;
 
 }
 .My-Services-Card-Content-Description p{
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 0.8em;
+    opacity: 0.6;
 }
 .My-Services-Buttons-Wrap{
     display: flex;
@@ -124,4 +126,41 @@
     right: 0;
     
     background-repeat: no-repeat;
+}
+.My-Services-Buttons-Wrap button{
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 0.7em;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.My-Services-Buttons-Wrap button:first-child{
+    color: white;
+   
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    gap: 2px;
+    background-color: #09a144;
+
+}
+.My-Services-Buttons-Wrap button:first-child:hover{
+    gap: 4px;
+}
+.My-Services-Buttons-Wrap button:nth-child(2){
+    background-color: white;
+    color: black;
+   
+    transition: 200ms ease-in-out;
+}
+.My-Services-Buttons-Wrap button:nth-child(2):hover{
+    background-color: transparent;
+    outline: 1px solid white;
+    color: white;
+    gap: 4px;
+    
 }

@@ -3,6 +3,9 @@ import WhyUsImage from './images/christopher-burns-8KfCR12oeUM-unsplash.jpg'
 import People from './images/people.png'
 import Price from './images/best-price.png'
 import Products from './images/order.png'
+import support from './images/ActiveSupport-bro.png'
+import stock from './images/Checking boxes-bro.png'
+import price from './images/Money income-bro.png'
 function WhyUs(){
     return (
         <div class="Why-Us-Container">
@@ -16,41 +19,37 @@ function WhyUs(){
                         Zašto izabrati nas?
                     </h1>
                 </div>
-                <div class="Why-Us-Content-Image">
-                    <img src={WhyUsImage}/>
-                </div>
-                <div class="Why-Us-Content-Card-Wrap">
-                    <div class='Why-Us-Content-Card'>
-                        <div class='Why-Us-Content-Card-Content'>
-                            <img src={People}/>
+                <div className='Why-Us-Cards-Wrap'>
+                    <div class='First-Card'>
+                        <div class='Card-Description'>
+                            <img src={support}/>
                             <h1>
-                                24/7 Podrška
+                                24/7 podrska
                             </h1>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and type
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
                             </p>
                         </div>
                     </div>
-                    <div class='Why-Us-Content-Card'>
-                    <div class='Why-Us-Content-Card-Content'>
-                            <img src={Products}/>
+                    <div class='Second-Card'>
+                        <div class='Card-Description'>
+                            <img src={stock}/>
                             <h1>
-                                Širok asortiman
+                                Sirok asortiman
                             </h1>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and ty
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
                             </p>
                         </div>
                     </div>
-                    <div class='Why-Us-Content-Card'>
-                        
-                        <div class='Why-Us-Content-Card-Content'>
-                            <img src={Price}/>
+                    <div class='Third-Card'>
+                        <div class='Card-Description'>
+                            <img src={price}/>
                             <h1>
                                 Povoljne cene
                             </h1>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and typeset
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
                             </p>
                         </div>
                     </div>

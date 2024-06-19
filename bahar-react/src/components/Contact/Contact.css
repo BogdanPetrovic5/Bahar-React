@@ -73,7 +73,7 @@
 .Contact-Content-Description p{
         color: white;
         font-size: 0.8em;
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         margin-left: 20px;
         width: 80%;
 }
@@ -115,7 +115,7 @@
 
 .input-holders div span{
     font-size: 0.65em;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
 .input-holders div input{
@@ -151,7 +151,7 @@
     outline: none;
     border: none;
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: .9em;
     align-self: flex-start;
     margin-top: 5px;
@@ -185,13 +185,13 @@
     background-color: #09a144;
 }
 .Contact-More-Info-Title h1{
-    font-family: 'Archivo Black',sans-serif;
+    font-family: 'Open Sans Black',sans-serif;
     margin: 0;
 }
 .Contact-More-Info-Title p{
     font-size: 0.9em;
     color: black;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     width: 50%;
     text-align: center;
@@ -212,13 +212,13 @@
 }
 .Contact-More-Info-Card-Wrap h1{
     font-size: 1.2em;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     opacity: 1;
 }
 .Contact-More-Info-Card-Wrap p{
     font-size: 0.76em;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     font-weight: 700;
     width: 70%;
@@ -236,7 +236,7 @@ flex-direction: row;
 align-items: center;    
 gap: 10px;
 font-weight: 600;
-font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 .Card-Info p img{
     width: 25px;

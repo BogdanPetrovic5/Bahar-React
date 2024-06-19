@@ -1,5 +1,5 @@
 import './AboutUs.css'
-import Img1 from './images/rashladni-sistemi-1.jpg'
+import Img1 from './images/About us page1.gif'
 function About(){
     return (
         <div class='About-Us-Container'>

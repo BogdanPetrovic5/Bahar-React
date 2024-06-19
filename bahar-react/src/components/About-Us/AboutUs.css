@@ -9,7 +9,7 @@
 .About-Us-Content{
     width: 70%;
     margin-top: 250px;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -52,11 +52,14 @@
     align-items: flex-start;
     margin-bottom: 0 !important;
     font-size: 2em;
-    font-family: "Archivo Black", sans-serif;;
+    font-family: "Open Sans", sans-serif;;
 }
 .About-Us-Content-Description p{
     font-size: 0.8em;
     margin-left: 20px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 31px;
+    opacity: 0.7;
 }

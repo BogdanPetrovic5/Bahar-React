@@ -35,7 +35,7 @@
 }
 .Products-Title-Content p{
     font-size: 0.8em;
-    font-family: 'Nunito',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-weight: 500;
     text-align: center;
     align-self: center;
@@ -45,7 +45,7 @@
 .Products-Title-Content h1{
     font-size: 2em;
     color: white;
-    font-family: 'Archivo Black',sans-serif ;
+    font-family: 'Open Sans',sans-serif ;
     align-self: center;
     margin: 0;
    
@@ -65,7 +65,7 @@
     border: none;
     outline: none;
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 0.8em;
     transition: 300ms ease-in-out;
 }
@@ -103,13 +103,13 @@
 .Products-Card p{
     font-size: 0.8em;
     width: 90%;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: left;
     font-weight: 500;
     opacity: 0.7;
 }
 .Products-Card h1{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
     font-weight: 800;
     margin-bottom: 0;

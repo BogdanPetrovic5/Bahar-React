@@ -63,7 +63,7 @@
     height: 500px !important;
     margin-top: -600px;
     position: relative !important;
-    
+    right: 0 !important;
   }
   .Cover-Content{
    margin-bottom: 400px !important;
@@ -303,6 +303,14 @@
     width: 90% !important;
     z-index: 2;
   }
+  .Why-Us-Cards-Wrap{
+    display: flex;
+    flex-direction: column !important;
+    gap: 150px;
+  }
+  .Why-Us-Cards-Wrap .First-Card, .Why-Us-Cards-Wrap .Third-Card{
+    margin-top: 0px !important;
+  }
   .Footer-Nav{
     width: 90% !important;
     flex-direction: column !important;
@@ -492,11 +500,16 @@
     height: 500px !important;
     margin-top: -600px;
     position: relative !important;
-    
+    right: 0 !important;
   }
   .Cover-Content{
    margin-bottom: 400px !important;
     height: 50%;
+  }
+  .Cover-Title-Description-Button-Wrap{
+    display: flex;
+    flex-direction: column !important;
+    gap: 20px !important;
   }
   .Cover-Content-Descirption{
     display: flex;
@@ -569,6 +582,9 @@
   .My-Services-Card p{
     font-size: 0.65em !important;
   }
+  .My-Services-Buttons-Wrap{
+    flex-direction: column !important;
+  }
   .Why-Us-Content{
     width: 95% !important;
     display: flex !important;
@@ -599,12 +615,21 @@
       font-family: 'Nunito', sans-serif;
       margin: 0;
   }
+  
   .Why-Us-Content-Card-Content p{
       margin: 0;
       font-size: 0.65em !important;
       font-family: 'Nunito', sans-serif;
       
       font-weight: 400;
+  }
+  .Why-Us-Cards-Wrap{
+    display: flex;
+    flex-direction: column !important;
+    gap: 150px;
+  }
+  .Why-Us-Cards-Wrap .First-Card, .Why-Us-Cards-Wrap .Third-Card{
+    margin-top: 0px !important;
   }
   .Feedback-Content{
     width: 95% !important;
@@ -687,7 +712,7 @@
     margin-top: 50px;
   }
   .Ref-Content{
-    width: 90% !important;
+    width: 95% !important;
     flex-direction: column !important;
     justify-content: center !important; 
     align-items: center !important;
@@ -714,9 +739,18 @@
     align-self: center !important;
     width: 95% !important;
   }
+  .Ref-Card{
+    width: 100% !important;
+  }
   .Ref-Card-Description h1{
     font-size: 0.9em !important;
   }
+  .Ref-Content-Descirption div{
+    display: flex;
+    flex-direction: column !important;
+    gap: 20px;
+}
+
   .Ref-Card-Description p{
     font-size: 0.65em !important;
   }
@@ -915,13 +949,14 @@
   .Cover-Container{
     flex-direction: column-reverse !important;
   }
+ 
   .Cover-Image{
     width:95% !important;
     align-self: flex-end !important;
     height: 500px !important;
     margin-top: -600px;
     position: relative !important;
-    
+    right: 0 !important;
   }
   .Cover-Content{
    margin-bottom: 400px !important;
@@ -933,9 +968,14 @@
     width: 90% !important;
     align-self: center;
     margin-bottom: 250px !important;
+    padding: 20px;
+  }
+  .Cover-Content-Descirption p{
+    width: 100% !important;
   }
   .Cover-Content-Title h1{
     font-size: 2em !important;
+    width: 100% !important;
   }
  
   .About-Us-Content{
@@ -1021,6 +1061,14 @@
       font-family: 'Nunito', sans-serif;
       
       font-weight: 400;
+  }
+  .Why-Us-Cards-Wrap{
+    display: flex;
+    flex-direction: column !important;
+    gap: 150px;
+  }
+  .Why-Us-Cards-Wrap .First-Card, .Why-Us-Cards-Wrap .Third-Card{
+    margin-top: 0px !important;
   }
   .Feedback-Content{
     width: 95% !important;
@@ -1252,7 +1300,7 @@
     height: 500px !important;
     margin-top: -600px;
     position: relative !important;
-    
+    right: 0 !important;
   }
   .Cover-Content{
    margin-bottom: 400px !important;
@@ -1335,6 +1383,14 @@
   .Why-Us-Content-Card{
     width: 100% !important;
     
+  }
+  .Why-Us-Cards-Wrap{
+    display: flex;
+    flex-direction: column !important;
+    gap: 150px;
+  }
+  .Why-Us-Cards-Wrap .First-Card, .Why-Us-Cards-Wrap .Third-Card{
+    margin-top: 0px !important;
   }
   .Why-Us-Content-Card-Content h1{
       font-size: 1em !important;
@@ -1553,7 +1609,7 @@
     height: 500px !important;
     margin-top: -600px;
     position: relative !important;
-    
+    right: 0 !important;
   }
   .Cover-Content{
    margin-bottom: 400px !important;
@@ -1641,6 +1697,14 @@
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
     margin: 0;
+  }
+  .Why-Us-Cards-Wrap{
+    display: flex;
+    flex-direction: column !important;
+    gap: 150px;
+  }
+  .Why-Us-Cards-Wrap .First-Card, .Why-Us-Cards-Wrap .Third-Card{
+    margin-top: 0px !important;
   }
   .Why-Us-Content-Card-Content p{
       margin: 0;
@@ -1824,6 +1888,7 @@
   }
   .Cover-Image{
     width:60% !important;
+    right: 1% !important;
   }
   .Cover-Content-Descirption{
     display: flex;
@@ -1850,6 +1915,14 @@
 }
 .Why-Us-Content-Card-Wrap{
   width: 90% !important;
+}
+.Why-Us-Cards-Wrap{
+  display: flex;
+  flex-direction: column !important;
+  gap: 150px;
+}
+.Why-Us-Cards-Wrap .First-Card, .Why-Us-Cards-Wrap .Third-Card{
+  margin-top: 0px !important;
 }
 .Why-Us-Content-Card-Content h1{
   font-size: 1em !important;
@@ -1903,6 +1976,18 @@
   width: 90% !important;
 }
 }
+@media only screen and (max-width:1149px){
+  .Feedback-Content img{
+    display: none;
+}
+.Feedback-Content-Description-Wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+  width: 90% !important;
+}
+}
 @media only screen and (min-width:1150px) and (max-width:1300px){
   .Header-Content{
     width: 90% !important;
@@ -1912,6 +1997,7 @@
   }
   .Cover-Image{
     width:55% !important;
+    right: 5% !important;
   }
   .Cover-Content-Descirption{
     display: flex;
@@ -1940,6 +2026,7 @@
 .Why-Us-Content-Card-Wrap{
   width: 85% !important;
 }
+
 .Why-Us-Content-Card-Content h1{
   font-size: 1em !important;
   font-weight: 700;

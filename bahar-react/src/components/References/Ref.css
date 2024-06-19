@@ -19,6 +19,27 @@
     align-self: center;
     margin-top: 150px;
     margin-bottom: 150px;
+    background-color: #090e0b !important;
+    position: relative;
+}
+.hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    align-self: flex-start;
+    height: 1px;
+    background-color: rgb(90, 90, 90);
+    border-radius: 25px;
+}
+.Clients-Logos {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+}
+.Clients-Logos img{
+    width: 170px;
+    height: 60px;
 }
 .Ref-Content-Descirption{
     
@@ -32,14 +53,26 @@
     justify-content: flex-end;
     align-self: flex-end;
 }
-.Ref-Content-Descirption button{
+.Ref-Content-Descirption div{
+    display: flex;
+    flex-direction: row;
+}
+.Ref-Content-Descirption div button:nth-child(2){
+    background-color: white;
+    color: black;
+}
+.Ref-Content-Descirption div button:nth-child(2):hover{
+    color: white;
+}
+.Ref-Content-Descirption div button{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    font-size: 0.8em;
-    font-family: 'Nunito', sans-serif;
+    gap: 2px;
+    width: 150px;
+    font-size: 0.7em;
+    font-family: 'Open Sans', sans-serif;
     background-color: #09a144;
     border-radius: 50px;
     padding: 10px 20px;
@@ -47,12 +80,21 @@
     outline: none;
     margin-left: 20px;
     color: white;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Ref-Content-Descirption div button:hover{
+    gap: 5px;
+    background-color: transparent;
+    outline: 1px solid white;
 }
 .Ref-Content-Descirption p{
-    font-size: 0.8em;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    width: 90%;
+    font-size: 0.7em;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.7;
+    width: 70%;
     color: white;
     margin-left: 20px;
 }
@@ -63,21 +105,21 @@
     width: 100%;
     height: 100%;
     border-radius: 50px;
-    background-color: rgba(9, 14, 11, .5);
+    background-color: rgba(9, 14, 11, 0.651);
 }
 .Ref-Content-Title{
     font-size: 25px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     position: relative;
 }
 .Ref-Content-Title div{
-    height: 50px;
+    height: 40px;
     width: 3px;
     color: white;
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-color: #09a144;;
     
     
@@ -85,13 +127,13 @@
 .Ref-Content-Title h1{
     font-size: 2em;
     color: white;
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 0;
     
 }
 .Ref-Content-Card-Wrap{
     width: 45%;
-    height: 70%;
+   
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -99,7 +141,7 @@
     align-self: flex-end;
     position: relative;
     font-size: 25px;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-bottom: 150px;
 }
 .Ref-Card{
@@ -110,7 +152,11 @@
 }
 .Ref-Card-Image{
     width: 100%;
-    height: 70%;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 .Ref-Card-Description{
     width: 100%;
@@ -122,6 +168,14 @@
     display: flex;
     flex-direction: column;
 }
+.Ref-Card-Description div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    font-size: 25px;
+}
 .Ref-Card-Image img{
     width: 100%;
     height: 100%;
@@ -130,23 +184,43 @@
 }
 .Ref-Card-Description h1{
     font-size: 1.1em;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    align-self: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    
     margin: 0;
-    width: 90%;
-    margin-top: 20px;
+    width: 95%;
+    margin-top: 50px;
     letter-spacing: 1px;
 
 }
 .Ref-Card-Description p{
-    font-size: 0.8em;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-    align-self: center;
-    margin-top: 20px;
+    font-size: 0.7em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-top: 10px;
     margin-bottom: 40px;
     width: 90%;
+    opacity: 0.7;
+}
+.Ref-Card-Description button{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    align-self: flex-start;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    font-weight: bold;
+    transition: 200ms ease-in-out;
+    color: #09a144;
+    cursor: pointer;
+}
+.Ref-Card-Description button:hover{
+    gap: 6px;
 }
 .Left, .Right{
     width: 60px;
@@ -162,16 +236,40 @@
     border-radius: 50%;
     color: white;
     background-color: #09a144;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
 }
 .Left img, .Right img{
     width: 30%;
     height: 30%;
 }
+.Left:hover{
+    transform: scale(0.95);
+}
+.Right:hover{
+    transform: scale(0.95);
+}
 .Left{
     left: 5%;
-    top: 50%;
+    top: 45%;
 }
 .Right{
     right: 5%;
-    top: 50%;
+    top: 45%;
+}
+.Navigation-Card{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#first, #second{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #686868;
+    cursor: pointer;
+}
+#first{
+    background-color:#09a144;
 }

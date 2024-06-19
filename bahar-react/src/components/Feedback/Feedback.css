@@ -13,53 +13,76 @@
     background-color: #090e0b;
     border-radius: 50px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
     margin-top: 150px;
     margin-bottom: 150px;
+    position: relative;
+    overflow: hidden;
+}
+.Feedback-Content img{
+    width: 85%;
+    position: absolute;
+    align-self: center;
+    right: -20%;
+    transform: rotate(20deg);
+    height: 100%;
+    opacity: 0.6;
+    height: 1000px;
+}
+.Feedback-Content-Description-Wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    width: 60%;
 }
 .Feedback-Content-Title{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     font-size: 25px;
     gap: 20px;
-    margin-top: 150px;
+    margin-top: 190px;
+    height: fit-content;
 }
 .Feedback-Content-Title div{
     width: 3px;
-    height: 50px;
+    height: 60px;
     background-color: #09a144;
     margin-top: 20px;
+    align-self: flex-start;
 }
 .Feedback-Content-Title h1{
     color: white;
     font-size: 2em;
-    width: 50%;
+   
     margin: 0;
-    font-family: "Archivo Black", sans-serif;
+    width: 90%;
+    font-family: "Open Sans", sans-serif;
 }
 
 .Feedback-Content-Description p{
-    font-size: 0.8em;
+    font-size: 0.7em;
+    opacity: 0.7;
     color: white;
-    font-family: 'Nunito', sans-serif;
-    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    width: 55%;
+    font-weight: 300;
     margin-left: 20px;
-    font-weight: bold;
+    
+    
 }
 .Feedback-Content-Description{
     display: flex;
     flex-direction: column;
     font-size: 25px;
+    width: 90%;
 }
 .Feedback-Content-Description button{
-    width: 150px;
-    height: 50px;
+    width: 130px;
+    height: 40px;
     border-radius: 50px;
     border: none;
     outline: none;
@@ -72,13 +95,16 @@
     width: 90%;
     display: flex;
     flex-direction: row;
+   
     justify-content: left;
-    align-items: center;
+    
     gap: 60px;
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 190px;
+    margin-left: 20px;
+
 }
 .Numbers div{
     font-size: 25px;
@@ -86,9 +112,9 @@
 }
 .Numbers div h1{
     color: white;
-    font-size: 3.2em;
+    font-size: 1.6em;
     margin: 0;
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 .Numbers div h1 span{
     color: #09a144;
@@ -96,4 +122,6 @@
 .Numbers div p{
     margin: 0;
     font-size: 0.7em;
+    opacity: 0.7;
+    font-family: 'Open Sans Sans', sans-serif;
 }
